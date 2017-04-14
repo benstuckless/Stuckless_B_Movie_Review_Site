@@ -1,0 +1,352 @@
+
+#playButton{
+	background: url('../images/playButton.jpg');
+	height:35px;
+	width:123px;
+	outline: none;
+	border: none;
+	box-shadow: 0px 0px 0px #000;
+	transition: all 0.15s ease-in-out;
+}
+#playButton:hover, #volUpButton:hover, #volDownButton:hover, #muteButton:hover{
+	box-shadow: 0px 1px 5px #555;
+}
+#volUpButton{
+background: url('../images/volUpButton.jpg');
+	height:35px;
+	width:123px;
+	outline: none;
+	border: none;
+	box-shadow: 0px 0px 0px #000;
+	transition: all 0.15s ease-in-out;
+}
+#volDownButton{
+background: url('../images/volDownButton.jpg');
+	height:35px;
+	width:123px;
+	outline: none;
+	border: none;
+	box-shadow: 0px 0px 0px #000;
+	transition: all 0.15s ease-in-out;
+}
+#muteButton{
+background: url('../images/muteButton.jpg');
+	height:35px;
+	width:123px;
+	outline: none;
+	border: none;
+	box-shadow: 0px 0px 0px #000;
+	transition: all 0.15s ease-in-out;
+}
+
+body{margin: 0 auto;text-align: center;}
+input{height: 35px; width: 300px;font-family: "Oswald";font-size: 24px;}
+textarea{height: 250px; width: 400px;font-family: "Oswald";font-size: 18px;}
+#logoCont{ float: left; margin-top: 2px; margin-left: 15px;}
+#dets{margin:50px; padding: 50px; background-color: rgba(0,0,0,0.12);}
+#dets h2{color: #000; font-family: "Oswald"; font-weight: 400; letter-spacing: 2px; font-size: 36px;}
+#dets a{color: #222; font-size: 16px; letter-spacing: 1px; text-decoration: none; font-family: "Oswald"; padding: 25px; background-color: rgba(0,0,0,0.4); transition: all 0.15s ease-in-out;}
+#dets a:hover{background-color: rgba(0,0,0,0.1);}
+#dets h6{font-size: 36px; padding: 15px; background-color: rgba(33,57,33,0.5); font-family: "Oswald";}
+#dets p{font-size: 26px; font-weight: 300; font-family: "Oswald"; letter-spacing: 1px; text-align: left; padding: 15px; background-color: rgba(34,54,33,0.15);}
+.bar{
+	height: 25px;
+	background-color: rgba(33,43,33,0.75);
+}
+
+.hidden{display: none;}
+nav ul { 
+	/*display: inline-block; */
+	margin: 0; 
+	padding: 20px 0;
+	text-align: center;
+}
+.poster-name{font-family: "Arial"; text-align: left; font-size: 38px; color: #fff; padding: 20px; width: 250px; background-color: rgba(255,0,0,0.9);}
+.poster-email{font-family: "Arial"; text-align: left; font-size: 18px; color: #fff; padding: 20px; margin-top: -38px;
+width: 250px; background-color: rgba(255,0,0,0.2);}
+.desc-text{font-family: "Arial"; text-align: left;  margin-top: -16px;
+color: #111; padding: 20px; width: 250px; background-color: rgba(255,255,255,0.9);}
+nav ul li { 
+	display: inline-block; 
+	margin: 0 15px; 
+	background-color: rgba(255, 255, 255, 0.45); 
+	margin-bottom: 15px;
+	border-radius: 5px;
+	padding: 15px;
+	border: 2px solid rgba(255, 255, 255, 0.95);
+	cursor: pointer;
+	transition: all 0.15s ease-in-out;
+}
+nav ul li img{
+		border-radius: 50%;
+}
+nav ul li:hover{
+	border: 2px solid rgba(0,0,0,0.75);
+	box-shadow: 0px 1px 5px #222;
+	cursor: pointer;
+}
+#mainContent{
+
+	padding: 35px;
+	background-color: rgba(33,33,33,0.1);
+	margin: 0 auto;
+		margin-top: 150px;
+}
+#mainContent img{
+	margin: 0 auto;
+
+}
+#mainContent h2{width: 500px; margin: 0 auto; margin-top: 5px; margin-bottom: 15px;}
+
+#productContainer h2{
+	font-size: 36px;
+	font-family: "Oswald";
+	font-weight: 700;
+	margin-bottom: 5px;
+
+}
+#productContainer h4{
+	font-size: 26px;
+	font-family: "Oswald";
+	font-weight: 300;
+	margin-bottom: 5px;
+
+}
+#productContainer a{
+	font-size: 16px;
+	font-family: "Oswald";
+	font-weight: 400;
+	color: #444;
+	margin-top: 5px;
+	transition: color 0.15s ease-in-out;
+}
+
+#productContainer a:hover{
+	color: #777;
+}
+
+#contentHome{
+	margin: 0 auto;
+	background: rgba(0,0,0,0.05);
+	width: 50%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border: 1px solid rgba(0,0,0,0.15);
+	padding: 15px;
+}
+#productContainer{
+	margin: 0 auto;
+	text-align: center;
+	
+display: inline-block;
+	
+
+	padding: 50px;
+	margin: 50px;
+}
+.filter_Nav a{
+	font-family: "Oswald";
+	font-size: 24px;
+	color: #777;
+	padding-left: 35px;
+	padding-top: 10px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: #444;
+	padding: 25px;
+	margin-left: -5px;
+
+}
+.filter_Nav{
+	margin-top: 75px;
+	margin-bottom: 25px;
+}
+.filter_Nav a:hover{
+	background-color: #999;
+	color: #000;
+	}
+
+	#productContainer img{
+		margin: 0 auto;
+		padding: 15px;
+		box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
+	}
+
+	#welcome p{
+		font-family: "Oswald";
+		text-align: center;
+		font-size: 26px;
+	}
+
+	.searchItems{
+		margin: 0 auto;
+		text-align: center;
+		padding: 50px;
+		margin: 10px;
+		border: 2px solid #111;
+		background-color: #444;
+			text-decoration: none;
+		padding-top: 50px;
+		display: inline-block;
+		width: 45%;
+	}
+	.searchItems a, h2, h4{
+		color: #999;
+		text-decoration: none;
+		font-family: "Oswald";
+		font-weight: 300;
+
+	}
+
+	.searchItems:hover{
+		background-color: #222;
+		
+	}
+	nav{float: right;margin-right: 50px;}
+	nav ul li{
+		display: inline-block;
+		margin-left: -4px;
+		margin-top: 15px;
+	}
+	nav ul li a{
+		font-family: "Oswald";
+		font-weight: 400;
+		color: #000;
+		text-decoration: none;
+		transition: box-shadow 0.25s ease-in-out, opacity 0.25s ease-in-out;
+		font-size: 24px;
+		padding: 15px;
+		padding-left: 65px;
+		padding-right: 65px;
+
+		background-color: rgba(80,77,74,0.1);
+	}
+	nav ul li a:hover{
+		
+		box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+	}
+
+	#livesearch{
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 150px;
+
+	}
+#headerSection2{
+	margin: 0 auto;
+	text-align: center;
+}
+	#promo{
+		text-align: center;
+		margin:0 auto;
+		display: inline-block;
+		margin-top: 150px;
+	
+	}
+	#promo img{
+		padding: 50px;
+		margin: 0 auto;
+		
+	}
+#aboutContent{
+	margin: 0 auto;
+	width: 50%;
+	text-align: center;
+	margin-top: 10px;
+}
+#aboutContent h2{font-size: 16px; text-align: left; max-width: 450px; margin: 0 auto; padding: 25px; color: #000;}
+
+	@media screen and (max-width: 1290px){
+	video{max-width: 90%;}		#contentHome{margin: 0 auto; width: 100%;}
+		#productContainer{margin:0 auto;width: 100%; padding: 5px; margin-left: -15px;}
+		body, html{
+			margin: 0 auto;
+			padding: 0 auto;
+			
+				text-align: center;
+		}
+		#contentHome{
+			margin: 0 auto;
+			text-align: center;
+			width: 100%;
+			padding: 5px;
+
+		}
+		input{width: 85%; margin: 0 auto; margin-bottom: 25px; font-size: 18px;}
+		
+	
+		
+		#productContainer a{
+			float: none;
+		}
+		#productContainer img{
+			float: none;
+			margin: 0 auto;
+			width: 85%;
+			max-width: 70px;
+		}
+		.searchItems{
+			width: 90%; text-align: left; height: auto;
+float: none; padding: 0px; margin: 0 auto; margin-top: 25px;
+		}
+		.searchItems a{
+			float: none;
+		}
+		.searchItems img{
+			float: none;
+			margin: 0 auto;
+			width: 85%;
+			max-width: 50px;
+		}
+		.filter_Nav a{margin: 0 auto; width: 100%; display: inline-block; margin-left: -30px;}
+
+		nav ul li{
+			
+			width: 100%;
+			margin:  0 auto;
+			text-align: center;
+			display: inline-block;
+			padding: 15px;
+margin-left: -50px;
+		}
+		nav ul li a{background-color: transparent; padding-left: 0px; padding-right: 0px; margin: 0 auto; }
+		nav ul li a:hover{box-shadow: none; }
+		nav{
+			float: none;
+			width: 100%;
+				text-align: center;
+			margin: 0 auto;
+		
+
+		}
+		.filter_Nav{margin: 0 auto; width: 90%;}
+		.filter_Nav a{
+			display: inline-block;
+			float: none;
+			width:100%;
+		}
+		#logoCont{margin-bottom: 15px; margin: 0 auto; float: none;}
+		#dets{width: 100%; float: none; padding: 5px; margin: 0 auto;}
+		#dets a{padding: 5px;}
+		#dets img{
+			max-width: 300px;
+			width: 85%;
+		}
+		#mainContent img{
+	max-width: 400px;
+	width: 85%;
+}
+#mainContent h2{
+	margin: 0 auto;
+	width: 100%;
+}
+#aboutContent{padding: 0 auto; margin: 0 auto; max-width: 700px; width: 100%;}
+#aboutContent img{
+	width: 95%;
+	max-width: 700px;
+}
+textarea{ width: 85%; font-size: 18px;}
+	}
+
+
+}
