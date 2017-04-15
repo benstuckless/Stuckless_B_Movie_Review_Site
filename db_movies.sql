@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 12, 2017 at 05:59 PM
+-- Generation Time: Apr 15, 2017 at 02:37 AM
 -- Server version: 5.6.17
 -- PHP Version: 5.5.12
 
@@ -241,17 +241,14 @@ CREATE TABLE IF NOT EXISTS `tbl_comments` (
   `poster_email` text NOT NULL,
   `comment` text NOT NULL,
   PRIMARY KEY (`comment_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=560 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=561 ;
 
 --
 -- Dumping data for table `tbl_comments`
 --
 
 INSERT INTO `tbl_comments` (`comment_id`, `movies_id`, `poster_name`, `poster_email`, `comment`) VALUES
-(1, 1, 'Ben Stuckless', 'benstuckless@gmail.com', 'Tremors is a fantastic movie! 5/5!'),
-(2, 2, 'Drake', 'drake_life@hotmail.ca', 'I really enjoyed parts of The Possession, but the cinematography could use some work. 4/5'),
-(3, 2, 'Robert', 'robraysford@gmail.com', 'This movie blows chunks! A waste of my money, and my time! 1/5!!'),
-(559, 3, 'Philip', 'phil@phil.com', 'I thought this movie sucked! 1/5!');
+(1, 1, 'Ben Stuckless', 'benstuckless@gmail.com', 'Tremors is a fantastic movie! 5/5!');
 
 -- --------------------------------------------------------
 
@@ -536,3 +533,4 @@ INSERT INTO `tbl_user` (`user_id`, `user_fname`, `user_lname`, `user_name`, `use
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
